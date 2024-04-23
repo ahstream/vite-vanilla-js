@@ -22,7 +22,8 @@
     "lint:fix": "npx eslint --ext js ./src --fix",
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@builder.io/partytown": "^0.10.1",
